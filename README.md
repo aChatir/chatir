@@ -15,9 +15,16 @@ How to Install :
             </Directory>
         </VirtualHost>
 
-    3 - create a database with the name wegener
+    3 - run this commande to install all dependency
+        - $ cd chatir/
+        - $ php composer.phar install
+            or
+        - $ php composer.phar update
 
-    4 - import sql from the wegner.sql file (see chatir/data directory)
+
+    4 - create a database with the name wegener
+
+    5 - import sql from the wegner.sql file (see chatir/data directory)
         or run this sql :
         DROP TABLE IF EXISTS `foo`;
         CREATE TABLE IF NOT EXISTS `foo` (
@@ -26,8 +33,8 @@ How to Install :
           PRIMARY KEY (`id`)
         ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
         
-    5 - now you can test you app with this url http://chatir.loc/wegener
+    6 - now you can test you app with this url http://chatir.loc/wegener
 
-    6 - done.
+    7 - done.
 
 I hoppe that is the same as you want :)
