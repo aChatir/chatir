@@ -17,7 +17,7 @@ How to Install :
 
     3 - create a database with the name wegener
 
-    4 - import sql from the wegner.sql file
+    4 - import sql from the wegner.sql file (see chatir/data directory)
 
     5 - now you can test you app with this url http://chatir.loc/wegener
 
