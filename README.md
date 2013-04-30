@@ -18,7 +18,14 @@ How to Install :
     3 - create a database with the name wegener
 
     4 - import sql from the wegner.sql file (see chatir/data directory)
-
+        or run this sql :
+        DROP TABLE IF EXISTS `foo`;
+        CREATE TABLE IF NOT EXISTS `foo` (
+          `id` int(11) NOT NULL AUTO_INCREMENT,
+          `bar` varchar(255) NOT NULL,
+          PRIMARY KEY (`id`)
+        ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+        
     5 - now you can test you app with this url http://chatir.loc/wegener
 
     6 - done.
